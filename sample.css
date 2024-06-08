@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+.container{
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(57, 55, 55);
+    color: white;
+    font-size: 14px;
+   
+}
+span{
+    margin: 14px;
+    
+}
+.body1{
+    background-color: black;
+}
+.apple{
+    text-align: center;
+}
+.image1{
+    text-align: center;
+}
+.wvd{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+.text1{
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 21px;
+    margin: 30px;
+    /* background: yellow; */
+}
+#button{
+    margin: 20px;
+    width: 10%;
+    border-radius: 40%;
+    padding: 11px;
+    background-color: #0071e3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+}
+/* body2 */
+.body2{
+    background-color: black;
+    
+}
+.iphonepro{
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+}
+.titanium{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+#button2{
+    /* margin: 20px; */
+    width: 10%;
+    border-radius: 21px;
+    padding: 11px;
+    background-color: #0071e3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 2%;
+  
+}
+#button3{
+    width: 10%; 
+    border-radius: 21px;
+    padding: 11px;
+    background-color: black;
+    color: #0071e3;
+    border: 1px groove #0071e3;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 2%; 
+    
+}
+#button3:hover{
+    background-color: #0071e3;
+    color: #ffffff;
+}
+#iphone{
+    width: 63%;
+}
+/* body3 */
+.body3{
+    margin-top: 10px;
+    background-color: black;
+}
+.ipadpro{
+    color: whitesmoke;
+    text-align: center;
+    padding: 5%;
+    font-size: 40px;
+}
+.thin{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+#ipad{
+    width: 93%;
+    text-align: center;
+    margin-top: 3%;
+}
+/* body4 */
+.body4{
+    margin-top: 10px;
+    /* width: 50%; */
+    display: flex;
+   
+    
+   
+    
+}
+
+
+#college{
+    width: 100%;
+    height: 130%;
+    
+}
+.text3{
+    position:absolute;
+    color: white;
+    text-align: center;
+    /* background-color: yellow; */
+    top: 80%;
+    left: 28%;
+    font-size: 40px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+ #student{
+    width: 100%;
+    height: 130%;
+ }
+ .student{
+    flex: 30%;
+    padding: 5px;
+    position: relative;
+   
+ }
+ .text4{
+    position:absolute;
+    color: white;
+    /* text-align: center; */
+    /* background-color: yellow; */
+    top: 90%;
+    left: 33%;
+   
+    font-size: 19px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+
+
+
+ .text5{
+    position:absolute;
+    color: white;
+     top: 4%; 
+    left: 33%;   
+    font-size: 33px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .text6{
+    color: rgb(191, 37, 37);
+    position: absolute;
+    top: 12%;
+    left: 39%;
+    font-family: 'Times New Roman', Times, serif;
+
+   
+ }
+ .text7{
+    position: absolute;
+    color: white;
+    top: 16%;
+    left: 28%;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .body4learnmore{
+    position: absolute;
+    /* color: white;
+    background-color: #0071e3; */
+    top: 100%;
+    left: 37%;
+ } 
+ #button4{
+   color: white;
+   background-color: #0071e3;
+   width: 180%;
+   padding: 10%;
+   border-radius: 21px;
+   height: 40px;
+  
+ }
+ .fucku{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+ }
+ #button5{
+    color: white;
+    background-color: #0071e3;
+    padding: 10px;
+    width: 120%;
+    border-radius: 21px;
+    height: 40px;
+ }  
+ .button6{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+
+ }
+ #button6{
+    color: #0071e3;
+    background-color: black;
+    padding: 10px;
+    width: 150%;
+    border-radius: 21px;
+    height: 40px;
+    border: 1px groove #0071e3;
+    
+
+ }
+ #button6:hover{
+    background-color: #0071e3;
+    color: #ffffff;
+
+ }
+
+ /*  body5 */
+ .body5{
+    display: flex;
+    margin-top: 10px;
+ }
+ .vision{
+    flex: 30%;
+    padding: 5px;
+    /* top: 60%; */
+ }
+ #vision{
+    width: 100%;
+    top: 10000%;
+ }
+ .award{
+    flex: 30%;
+    padding: 5px;
+    
+ }
+ #award{
+    width: 100%;
+    padding-top: 25%;
+    background-color: black;
+    
+    
+ }
+
+
