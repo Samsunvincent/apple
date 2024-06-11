@@ -14,6 +14,17 @@ span{
     margin: 14px;
     
 }
+.link{
+  text-decoration: none;
+  color: inherit;
+ 
+}
+#search{
+  width: 1%;
+}
+#applesize{
+  width: 25px;
+}
 .body1{
     background-color: black;
 }
@@ -121,6 +132,7 @@ span{
     margin-top: 10px;
     /* width: 50%; */
     display: flex;
+    /* position: relative; */
    
     
    
@@ -138,8 +150,8 @@ span{
     color: white;
     text-align: center;
     /* background-color: yellow; */
-    top: 80%;
-    left: 28%;
+    top: 68%;
+    left: 35%;
     font-size: 40px;
     font-style: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -161,8 +173,8 @@ span{
     color: white;
     /* text-align: center; */
     /* background-color: yellow; */
-    top: 90%;
-    left: 33%;
+    top: 78%;
+    left: 38%;
    
     font-size: 19px;
     font-style: bold;
@@ -202,8 +214,8 @@ span{
     position: absolute;
     /* color: white;
     background-color: #0071e3; */
-    top: 100%;
-    left: 37%;
+    top: 85%;
+    left: 41%;
  } 
  #button4{
    color: white;
@@ -254,6 +266,7 @@ span{
  .body5{
     display: flex;
     margin-top: 10px;
+    position: relative;
  }
  .vision{
     flex: 30%;
@@ -264,7 +277,62 @@ span{
     width: 100%;
     top: 10000%;
  }
- .award{
+ #visionpro{
+    position: absolute;
+    top: 74%;
+    left: 37%;
+    color: black;
+    font-size: 35px;
+ }
+ .era{
+    position: absolute;
+    top: 80%;
+    left: 200px;
+   font-size: 20px;
+ }
+ #body4learnmore{
+    color: white;
+    background-color: #0071e3;
+    padding: 10px;
+    width: 120%;
+    border-radius: 21px;
+    height: 40px;
+
+ }
+ .vv4{
+    position: absolute;
+    /* color: white;
+    background-color: #0071e3; */
+    top: 85%;
+    left: 38%;
+
+ }
+ .buybutton{
+    position: absolute;
+    top: 84.5%;
+    left: 53%;
+ }
+ #buybutton{
+    
+    /* color: black;
+    background-color: yellow; */
+    width: 98%; 
+    border-radius: 21px;
+    padding: 11px;
+    background-color: black;
+    color: #0071e3;
+    border: 1px groove #0071e3;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 2%; 
+ }
+ #buybutton:hover{
+    background-color: #0071e3;
+    color: white;
+
+ }
+ /* .award{
     flex: 30%;
     padding: 5px;
     
@@ -275,6 +343,205 @@ span{
     background-color: black;
     
     
- }
+ } */
+  .appledesign{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    left: 29%;
+   
+  }
+  .celeberating{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 43px;
+    left: 34%;
+  }
+  .gamedesign{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 65px;
+    left: 31%;
+  }
+  .winners{
+    position: absolute ;
+    top: 90px;
+    left: 37%;
+  }
+  /* body6 */
+  .body6{
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+  }
+  .card{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    left: 40%;
+  }
+  .cashback{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 35px;
+    left: 25%;
+  }
+  .purchase{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 65px;
+    left: 30%;
+  }
+  .body6learnmore{
+    position: absolute;
+    top: 110px;
+    left: 28%;
+   
+    
+  }
+  #body6learnmore{
+    background-color: #0071e3;
+    border-radius: 21px;
+    width: 120px;
+    height: 40px;
+    color: #f5f5f7;
+  }
+  .apply{
+    position: absolute;
+    top: 110px;
+    left: 45%;
+   
+  }
+  #apply{
+    color: #0071e3;
+    background-color: white;
+    border-radius: 21px;
+    width: 120px;
+    height: 40px;
+  }
+  #apply:hover{
+    color: white;
+    background-color: #0071e3;
+    border: groove 1px #0071e3;
+  }
+  .trade{
+    position: absolute;
+    font-size: 35px;    
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    left: 40%;
+  }
+  .credit{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 10%;
+    left: 30%;
+  }
+  .higher{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 15%;
+    left: 33.5%;
+  }
+  .estimate{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+  #estimate{
+    color: white;
+    background-color: #0071e3;
+    border-radius: 21px;
+    width: 120px;
+    height: 40px;
+    border: double 1px #0071e3;
+  }
 
+  .slideimages{
+    width: 100%;
+   
 
+  }
+  .slideimages1{
+    width: 120%;
+  }
+  .slideimages2{
+    margin-top: 15px;
+  }
+  .palmtree{
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+    
+
+  }
+  .palmtree img{
+    padding: 5px;
+  }
+.slideimage1{
+    width: 30px;
+    height: 236px;
+}
+#slideimage1{
+    width: 476px;
+    height: 236px;
+}
+#slideimage2{
+    width: 476px;
+    height: 236px;
+}
+#slideimage3{
+    width: 476px;
+    height: 236px;
+}
+#slideimage4{
+    width: 476px;
+    height: 236px;
+}
+.footer{
+    width: 100%;
+    padding-top: 30px;
+    background-color:rgb(245,245,247);
+    
+    
+}
+.para1{
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom: solid 1px rgb(59, 58, 58);
+    color: rgb(68,68,69);
+    
+}
+.list{
+   margin-left: 25%;
+   margin-right: 25%;
+   position: relative;
+   display: flex;
+  
+}
+.nobullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.shop{
+    font-weight: bold;
+}
+
+.nobullets1{
+   padding-top: 20px;
+    list-style-type: none;
+    margin: 0;
+}
+.list1{
+  
+}
