@@ -8,19 +8,119 @@
     background-color: rgb(57, 55, 55);
     color: white;
     font-size: 14px;
+    
    
 }
 span{
     margin: 14px;
     
 }
+
+.shop{
+  color: rgb(110,110,115);
+  font-size: 20px;
+  /* margin-right: 2em; */
+}
+.store-section-list{
+  list-style: none;
+  color: white;
+  text-align: left;
+  margin-left: 11em;
+  font-size: 25px;
+  margin-top: 20px;
+  
+}
+.list-container{
+  min-width: 200px;
+  display: flex;
+}
+.store-section-list1{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+  
+}
+.store-section-list2{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.shopspecial{
+  font-size: 20px;
+  color: rgb(110,110,115);
+  
+}
+
+.hidden-section{
+  overflow: hidden;
+  height: 0px;
+  opacity: 0;
+  transition: height 0.9s, opacity 0.9s ease-out;
+}
+
+.text-store:hover ~.hidden-store-section{
+  height: 17rem;
+  opacity: 1;
+}
+.quicklinks{
+  color: rgb(110,110,115);
+  font-size: 20px;
+  
+}
+.explore{
+  color: rgb(110,110,115);
+  font-size: 20px;
+}
+.mac-section-list{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 11em;
+  margin-top: 20px;
+}
+.text-mac:hover ~ .hidden-mac-section{
+  height: 17rem;
+  opacity: 1;
+}
+.mac-section-list1{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.shop-mac{
+  color: rgb(110,110,115);
+  font-size: 20px;
+  
+}
+.mac-section-list2{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.more-mac{
+  color: rgb(110, 110, 115);
+  font-size: 20px;
+}
+
 .link{
   text-decoration: none;
   color: inherit;
- 
 }
 #search{
-  width: 1%;
+  width: 1px;
 }
 #applesize{
   width: 25px;
