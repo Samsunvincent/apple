@@ -5,7 +5,7 @@
     
 }
 .container{
-    background-color: rgb(231, 231, 231);
+  
 }
 .nav{
    
@@ -84,6 +84,8 @@
 }
 .images{
     display: flex;
+    overflow: auto;
+   
 }
 .section2img{
     border-radius: 2em;
@@ -96,7 +98,11 @@
     height: 70vh;
     border-radius: 2em;
     margin-left: 9%;
-    margin-top: 1%;    
+    margin-top: 1%;
+        
+}
+.section21img,.section3img,.section41img,.section51img{
+    box-shadow: 2px 15px 17px black; 
 }
 .section2-text{
     color: #f5f5f7;
@@ -237,5 +243,315 @@
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+}
+.section5-text2{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 415; 
+}
+.section5img{
+    border-radius: 2em;
+    margin-left: 2%;
+    margin-top: 1%;
+    position: relative;   
+}
+/* .section51img{
+    width: 25vw;
+    height: 70vh;
+    border-radius: 2em;
+} */
+.section6text{
+    color: black;
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.section6-text2{
+    font-size: 25px;
+}
+.section6-text3{
+    font-size: 16px;
+    top: 18%;
+    color: grey;
+}
+.section7-text3{
+    font-size: 16px;
+    top: 18%;
+    color: black;
+    font-weight: 100;
+}
+.section8-text{
+    color: white ;
+}
+.section8-text1{
+    color: white;
+    top: 18%;
+}
+.section8-text2{
+    color: white;
+    top: 25%;   
+}
+.section9-text1{
+    color: white;
+    font-size: 25px;
+}
+.section9-text2{
+    color: white;
+    position: absolute;
+    top: 19%;
+    left: 11%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 350;
+}
+.section6-text21{
+    top: 18%;
+    font-size: 25px;
+}
+.section6-text31{
+    font-size: 16px;
+    top: 25%;
+    color: grey;
+}
+.section2-img1{
+    position: relative;
+}
+.section2-text1{
+    position: absolute;
+    color: #6e6e73;
+    font-size: 12px;
+    right: 2em;
+}
+.image1{
+    display: flex;
+}
+.section10img{
+    position: relative;
+    border-radius: 18px;
+    margin-left: 11%;
+    margin-top: 1%;
+}
+.specialist{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    color: grey;
+}
+.specialist1{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    font-size: 2em;
+    font-weight: 650;
+}
+.specialist2{
+    top: 16%;
+    font-size: 30px;
+}
+.greenman{
+    width: 28.2352941176rem;
+    height:  29.4117647059rem;
+    box-shadow: 2px 4px 17px #00000014;  
+}
+.section10img1{
+    position: relative;
+    border-radius: 18px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.handimg{
+    width: 28.2352941176rem;
+    height:  29.4117647059rem;
+    box-shadow: 2px 4px 17px #00000014;  
+    box-shadow: 2px 4px 17px #00000014;  
+}
+.shop{
+    font-size: 25px;
+    margin-left: 10px;
+  
+}
+.overvideo{
+    top: 2.5em;
+    left: 25px;
+    
+}
+.next-device{
+    top: 8em;
+    font-size: 1em;
+    left: 25px;
+    color: grey;
+}
+.one-way{
+    top: 9em;
+    font-size: 1em;
+    left: 25px;
+    color: grey;
+
+}
+.store{
+  top: 2.5em;  
+}
+.feature{
+    font-size: 15px;
+    top: 9em;
+}
+.device{
+    top: 10em;
+}
+
+.section{
+    position: relative;
+    border-radius: 18px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.help{
+   color: black;
+   position: absolute;
+   margin-top: 24px;
+   margin-left: 3%;
+   font-size: 25px;
+   font-weight: 600;
+}
+.personal{
+    position: absolute;
+    font-size: 25px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 3%;
+    font-weight: 600;
+
+}
+.apps{
+    width: 28.2352941176rem;
+    height: 14.70588235295rem;
+    box-shadow: 2px 4px 17px #00000014; 
+    
+}
+.lower-section{
+    margin-top: 2%;
+
+}
+.genius{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+}
+.genius2{
+    top: 2.5em;
+    left: 2em;
+}
+.support{
+    top: 3.5em;
+    left: 2em;
+}
+.genius1{
+    top: 4.5em;
+    left: 2em;
+}
+.last{
+    width: 28.2352941176rem;
+    height: 14.70588235295rem;
+    box-shadow: 2px 4px 17px #00000014;  
+}
+.applestore{
+    font-size: 2em;
+    margin-left: 6em;
+}
+.image2{
+    display: flex;
+}
+.section11img{
+    width: 313px;
+    height: 240px;
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-left: 10em;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 2px 15px 17px black;
+    position: relative;
+}
+.van{
+    margin-top: 1em;
+    margin-left:2em;
+    width: 49px;
+    height: 56px;
+    display: flex;
+}
+.delivery{
+    position: absolute;
+    top: 4em;
+    font-size: 1.5em;
+    left: 1em;
+}
+i{
+    color: rgb(14, 171, 14);
+}
+.apple-store{
+    top: 5em;
+}
+.free{
+    top: 6em;
+}.pickup{
+    top: 7em;
+}
+.section11img1{
+    width: 313px;
+    height: 240px;
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-left: 1em;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 2px 15px 17px black;
+    position: relative;
+}
+.connection{
+    /* margin-top: 1em; */
+    margin-left:1em;
+    width: 90px;
+    height: 90px;
+    display: flex;
+}
+.trade{
+    color: #007AFF;
+    font-weight: 400;
+}
+.credit{
+    top: 5em;
+}
+.toward{
+    top: 5.8em;
+}
+.magnetic-card{
+    margin-top: 1em;
+    margin-left:2em;
+    width: 49px;
+    height: 56px;
+    display: flex;
+}
+.applock{
+    margin-left:1em;
+    width: 90px;
+    height: 90px;
+    display: flex;
+}
+.personalized{
+    color: #007AFF;
+}
+.experience{
+    color: #007AFF;
+    top: 5em;
+}
+.apple-store1{
+    top: 6em;
 }
 

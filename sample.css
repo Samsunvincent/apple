@@ -63,6 +63,12 @@ span{
   opacity: 0;
   transition: height 0.9s, opacity 0.9s ease-out;
 }
+a {
+ 
+  text-decoration: none;
+  color: inherit;
+  
+ }
 
 .text-store:hover ~.hidden-store-section{
   height: 17rem;
