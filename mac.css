@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2%;
+}
+.image1{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#search{
+    width: 16px;
+    height: 16px;
+}
+#applelogo{
+    width: 16px;
+    height: 16px;
+}
+#mac{
+    width: 79px;
+    height: 52px;
+}
+.mactxt{
+    text-align: center;
+
+}
+.newtxt{
+    margin-left: 1.5em;
+}
+#macbook{
+    width: 79px;
+    height: 52px;
+    /* margin-left: 1em; */
+}
+.imactxt{
+    margin-left: 1.5em;
+}
+.macminitxt{
+    margin-left: .8em;
+}
+.macstudiotxt{
+    margin-left: .8em;
+}
+.accessoriestxt{
+    margin-left: .4em;
+}
+.educationsavingstxt{
+    margin-top: 2em;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(197, 189, 189);
+    padding: 12px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7em;
+}
+.dreamtxt{
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 3em;
+}
+.bigmactxt{
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 2em;
+}
+ /* video{
+    width: 90vw;
+    height: 90vh;
+    margin-top: 3em;
+    object-fit: fill;
+    overflow: hidden;
+    margin-left: 5em;
+} */
+.knowtxt{
+    font-size: 60px;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.image2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+  
+}
+.section1img{
+    width:405px;
+    height: 740px;
+    background-color: white;
+    position: relative;
+}
+.hello{
+    border-radius: 4em;
+    box-shadow: 2px 15px 17px black;
+}
+.gettingtxt{
+    position: absolute;
+    right: 15em;
+    top: 3em;
+    color: white;
+    font-size: 18px;
+}
+.easytxt{
+    top: 6em;
+    left: 13em;
+    font-size: 18px;
+}
