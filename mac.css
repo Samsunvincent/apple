@@ -11,7 +11,7 @@
     padding: 2%;
 }
 .image1{
-    width: 75%;
+    width: 75vw;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
@@ -75,14 +75,15 @@
     font-weight: 900;
     margin-left: 2em;
 }
- /* video{
+ video{
     width: 90vw;
     height: 90vh;
     margin-top: 3em;
     object-fit: fill;
     overflow: hidden;
     margin-left: 5em;
-} */
+    
+}
 .knowtxt{
     font-size: 60px;
     margin-top: 1em;
@@ -90,8 +91,10 @@
 }
 .image2{
     display: flex;
-    justify-content: space-evenly;
-    padding: 2em;
+    /* justify-content: space-evenly; */
+    padding-left: 5em;
+    overflow: auto;
+   
   
 }
 .section1img{
@@ -99,10 +102,14 @@
     height: 740px;
     background-color: white;
     position: relative;
+    margin-top: 2em;
+    margin-left: 4em;
 }
 .hello{
     border-radius: 4em;
-    box-shadow: 2px 15px 17px black;
+    box-shadow: 4px 15px 17px black;
+ 
+    
 }
 .gettingtxt{
     position: absolute;
@@ -112,7 +119,122 @@
     font-size: 18px;
 }
 .easytxt{
-    top: 6em;
-    left: 13em;
-    font-size: 18px;
+    position: absolute;
+    top: 3.5em;
+    left: 1em;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+.section1img2{
+    width:405px;
+    height: 740px;
+    background-color: white;
+    margin-top: 2em;
+    margin-left: 1em;
+    position: relative;
+}
+.women{
+    margin-left: 1em;
+    border-radius: 4em;
+    box-shadow: 4px 15px 17px black;
+    
+}
+.battertxt{
+    position: absolute;
+    bottom: 42em;
+    left: 3em;
+    color: white;
+    font-weight: 500;
+}
+.fasttxt{
+    position: absolute;
+    bottom: 25em;
+    left: 2em;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+.macandiphonetxt{
+    color: #1d1d1f;
+}
+.favouritetxt{
+    color: #1d1d1f;
+    top: 4.5em;
+}
+.nobodytxt{
+    top: 4.5em;
+}
+.exploretxt {
+    padding-top: 10x%;
+    
+}
+.sectionbutton1{
+    margin-left: 4em;
+    display: flex;
+    justify-content: left;
+   
+    
+}
+.laptops{
+    padding: 3em;
+}
+#button1{
+    
+    width: 7em;
+    border-radius: 21px;
+    padding: 9px;
+    background-color: #1d1d1f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 5em;
+  
+   
+}
+#button2{
+    width: 7em;
+    border-radius: 21px;
+    padding: 9px;
+    background-color: #1d1d1f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 2.89em;
+    display: flex;
+   
+}
+#button3{
+    margin-left: 1em;
+    width: 7em;
+    border-radius: 21px;
+    padding: 9px;
+    background-color: #1d1d1f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 2.89em;
+    display: flex;
+   
+}
+.buttonsection1{
+    display: flex;
+    margin-top: 2em;
+    margin-left: 10em;
+    /* position: relative; */
+}
+#macbook{
+    width: 354px;
+    height: 176px;
+    position: relative;
+    
+}
+#macpro{
+    width: 354px;
+    height: 176px;
+}
+.m3txt{
+   text-align: center;
+   margin-top: 10px;
+
 }
